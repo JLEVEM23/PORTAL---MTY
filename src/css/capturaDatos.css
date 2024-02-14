@@ -1,0 +1,40 @@
+
+
+.text{
+    font-family: 'NunitoSans-Regular', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.labels{
+    font-weight: bold;
+    color: gray;
+    font-family: 'Karla', 'Arial Narrow', Arial, sans-serif;
+}
+
+.labelsCard{
+    font-weight: bold;
+    color: white;
+    font-family: 'Karla', 'Arial Narrow', Arial, sans-serif;
+}
+
+.textCards{
+    color: black;
+    font-family: 'Karla', 'Arial Narrow', Arial, sans-serif;
+}
+
+.labelsInput{
+    color: black;
+    font-family: 'Karla', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input{
+    background-color: #f7f7f9;
+    border-radius: 0%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: black;
+}
+
+.divInput{
+    margin-top: 10px;
+}
