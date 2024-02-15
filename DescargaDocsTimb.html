@@ -11,7 +11,10 @@
     <title>Facturacion</title>
     <link rel="stylesheet" href="src/css/capturaDatos.css">
     <link rel="stylesheet" href="src/css/descargDocs.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
@@ -78,45 +81,48 @@
         <br>
         <div class="row">
             <div class="col">
-                <h1 style="color: #76AEFF;" class="labels">DESCARGA DEL COMPROBANTE</h1>
-                <h5 class="labels">
+                <h1 style="color: #76AEFF;" class="karla-labels">DESCARGA DEL COMPROBANTE</h1>
+                <h5 class="karla-labels">
                     AHORA PUEDE DESCARGAR SU COMPROBANTE EN FORMATO PDF Y SU XML CORRESPONDIENTE
                 </h5>
             </div>
         </div>
         <br>
         <div class="row">
-            <div class="col" >
+            <div class="col">
                 <div class="table-responsive">
                     <table class="table">
                         <thead style="text-align: center;">
-                            <th style="color: black; font-family: 'Karla', 'Arial Narrow', Arial, sans-serif; font-weight: bold;">
-                                <img  class="doc" src="src/img/icono_xls.png">
-                                CFDI (XML)</th>
-                            <th style="color: black; font-family: 'Karla', 'Arial Narrow', Arial, sans-serif; font-weight: bold;">
+                            <th class="karla-tbls">
+                                <img class="doc" src="src/img/icono_xls.png">
+                                CFDI (XML)
+                            </th>
+                            <th class="karla-tbls">
                                 <img class="doc" src="src/img/icono_pdf.png">
-                                REPRESENTACIÓN (PDF)</th>
-                            <th style="color: black; font-family: 'Karla', 'Arial Narrow', Arial, sans-serif; font-weight: bold;">
-                                <img  class="doc" src="src/img/correo-electronico.png">
-                                ENVIAR CORRREO</th>
+                                REPRESENTACIÓN (PDF)
+                            </th>
+                            <th class="karla-tbls">
+                                <img class="doc" src="src/img/correo-electronico.png">
+                                ENVIAR CORRREO
+                            </th>
                             <th></th>
                         </thead>
-                        <tbody >
+                        <tbody>
                             <td style="text-align: center;">
                                 <a href="" style="color: black;">
                                     Descargar
-                                </a >
-                            </td>
-                            <td style="text-align: center;" >
-                                <a href="" style="color: black;">
-                                     Descargar
                                 </a>
                             </td>
-                            <td >
-                                <input  style="border-radius: 0px;" type="text" class="form form-control input">
+                            <td style="text-align: center;">
+                                <a href="" style="color: black;">
+                                    Descargar
+                                </a>
                             </td>
                             <td>
-                                <a class="btn btn-md btn-success"  style="border-radius: 0;">Enviar</a>
+                                <input style="border-radius: 0px;" type="text" class="form form-control input">
+                            </td>
+                            <td>
+                                <a class="btn btn-md btn-success" style="border-radius: 0;">Enviar</a>
                             </td>
                         </tbody>
                     </table>
@@ -126,7 +132,8 @@
         <br>
         <div class="row">
             <div class="col">
-                <a class="btn btn-md btn-dark" style="border-radius: 0;" href="Facturacion.html">Generar nueva factura</a>
+                <a class="btn btn-md btn-dark" style="border-radius: 0;" href="Facturacion.html">Generar nueva
+                    factura</a>
             </div>
         </div>
     </main>

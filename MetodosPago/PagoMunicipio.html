@@ -2,9 +2,13 @@
 <html lang="en">
 
 <head>
+
     <meta charset="utf-8">
     <link rel="shortcut icon" href="../src/img/favicon.png">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
@@ -13,6 +17,8 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+
+
 
 <body class="p-3 m-0 border-0 bd-example m-0 border-0" <!-- Example Code -->
 
@@ -52,22 +58,22 @@
     </header>
     <main class="container">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col">
                 <a href="../Facturacion.html">
                     <img src="../src/img/Progreso/P1.png" style="width: 100px; display: block; margin: auto;">
                 </a>
             </div>
-            <div class="col-md-3">
+            <div class="col">
                 <a>
                     <img src="../src/img/Progreso/P2.png" style="width: 100px; display: block; margin: auto;">
                 </a>
             </div>
-            <div class="col-md-3">
+            <div class="col">
                 <a>
                     <img src="../src/img/Progreso/P3G.png" style="width: 100px; display: block; margin: auto;">
                 </a>
             </div>
-            <div class="col-md-3">
+            <div class="col">
                 <a>
                     <img src="../src/img/Progreso/P4G.png" style="width: 100px; display: block; margin: auto;">
                 </a>
@@ -150,15 +156,15 @@
                 <div class="divInput">
                     <label for="cfdi" class="labelsInput"> Folio fiscal:</label>
                     <span id="rfvtxtNoFactura" style="color:Red;visibility:hidden;">*</span></br>
-                    <input name="txtNoFactura" type="text" id="folioFiscal"
-                        class="form-control  input w-60 d-inline"
-                        onFocus="if (this.value == 'xxx-xxxx' ){this.value = '';}" value=""/>
+                    <input name="txtNoFactura" type="text" id="folioFiscal" class="form-control  input w-60 d-inline"
+                        onFocus="if (this.value == 'xxx-xxxx' ){this.value = '';}" value="" />
                 </div>
 
                 <div class="divInput">
                     <label for="cfdi" class="labelsInput"> Importe total:</label>
                     <span id="rfvtxtTotal" style="color:Red;visibility:hidden;">*</span></br>
-                    <input name="txtTotal" type="text" id="importe" class="form-control  input w-60 d-inline"  required/>
+                    <input name="txtTotal" type="text" id="importe" class="form-control  input w-60 d-inline"
+                        required />
                     <br>
 
                     <a class="btn btn-success" href="../DatosFiscales.html"

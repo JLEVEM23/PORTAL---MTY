@@ -1,33 +1,79 @@
+.karla-labels {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    color: gray;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.karla-index {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.karla-labelsCard {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+}
 
 
-.text{
+.karla-textCards {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: black;
+}
+
+.karla-tbls {
+    color: black;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+}
+
+
+.karla-labelsInput {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: black;
+}
+
+
+
+
+.text {
     font-family: 'NunitoSans-Regular', 'Arial Narrow', Arial, sans-serif;
 
 }
 
-.labels{
+.labels {
     font-weight: bold;
     color: gray;
     font-family: 'Karla', 'Arial Narrow', Arial, sans-serif;
 }
 
-.labelsCard{
+.labelsCard {
     font-weight: bold;
     color: white;
     font-family: 'Karla', 'Arial Narrow', Arial, sans-serif;
 }
 
-.textCards{
+.textCards {
     color: black;
     font-family: 'Karla', 'Arial Narrow', Arial, sans-serif;
 }
 
-.labelsInput{
+.labelsInput {
     color: black;
     font-family: 'Karla', 'Arial Narrow', Arial, sans-serif;
 }
 
-.input{
+.input {
     background-color: #f7f7f9;
     border-radius: 0%;
     margin-bottom: 5px;
@@ -35,6 +81,6 @@
     border: black;
 }
 
-.divInput{
+.divInput {
     margin-top: 10px;
 }
