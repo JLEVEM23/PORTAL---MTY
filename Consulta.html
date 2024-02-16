@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <link rel="shortcut icon" href="src/img/favicon.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
@@ -71,26 +72,38 @@
       </div>
     </div>
     <br>
-    <h1 style="color: #76AEFF;" class="karla-labels">Consulta tu Factura o Recibo</h1>
-    <h4 class="karla-labels">Selecciona la opción de acuerdo donde realizaste tu pago</h4>
+    <h1 style="color: #76AEFF;" class="karla-labels">Consulta de factura o comprobante fiscal</h1>
+    <h4 class="karla-labels">Seleccione la opción que le corresponda de acuerdo con donde realizó su pago</h4>
     <div class="alert alert-secondary">
-      <h6 style="text-align: center;">Si usted cuenta con un comprobante que no corresponde a una de las opciones que se
-        muestran a continuación, favor de <br> contactarse a <strong>facturacion1@monterrey.gob.mx</strong></h6>
+      <h6 style="text-align: center;">Si no aparece la opción de acuerdo al comprobante que tenga, es necesario que
+        <br>envíe un correo electrónico a <strong>facturación1@monterrey.gob.mx</strong>
+      </h6>
+    </div>
+    <div class="row no-gutters align-items-center">
+      <div class="col-auto">
+        <span class="material-symbols-outlined">
+          error
+        </span>
+      </div>
+      <div class="col mr-1">
+        <h6>Tenga a la mano sus datos fiscales y comprobante de pago.
+        </h6>
+      </div>
     </div>
     <hr class="featurette-divider">
     <div class="row row-cols-1 row-cols-md-2 mb-3 text-center">
       <div class="col">
         <div class="card mb-4 rounded-3 shadow border-white metodoPago">
           <div class="card-header py-3 text-bg-primary ">
-            <h4 class="my-0 fw-normal karla-labelsCard"> Municipio/Delegacion </h4>
+            <h4 class="my-0 fw-normal karla-labelsCard"> Caja del municipio o alcaldía </h4>
           </div>
           <div class="card-body">
             <a class="card-title pricing-card-title">
               <img src="src/img/ayuntamiento.png" style="width: 100px;">
             </a>
             <ul class="list-unstyled mt-3 mb-4">
-              <li class="karla-textCards">Para pagos realizados en cajas de</li>
-              <li class="karla-textCards"> Palacio Municpal o Delegaciones</li>
+              <li class="karla-textCards">Para pagos realizados en la caja del</li>
+              <li class="karla-textCards"> municipio o alcaldía</li>
             </ul>
             <a type="button" href="Consultas/PagoMunicipio.html" class="w-100 btn btn-lg btn-outline-primary">Generar
               Factura</a>
@@ -100,15 +113,15 @@
       <div class="col">
         <div class="card mb-4 rounded-3 shadow border-white metodoPago">
           <div class="card-header py-3 text-bg-primary border-primary">
-            <h4 class="my-0 fw-normal karla-labelsCard">En linea/Módulo digital</h4>
+            <h4 class="my-0 fw-normal karla-labelsCard">Portal o módulo digital</h4>
           </div>
           <div class="card-body">
             <a class="card-title pricing-card-title">
               <img src="src/img/sitio-web.png" style="width: 100px;">
             </a>
             <ul class="list-unstyled mt-3 mb-4">
-              <li class="karla-textCards">Para pagos realizados en pagina del </li>
-              <li class="karla-textCards">Municipio/Módulo Monterrey Digital+</li>
+              <li class="karla-textCards">Para pagos realizados a través del Portal del </li>
+              <li class="karla-textCards">municipio o del módulo Digital Monterrey</li>
             </ul>
             <a href="Consultas/pagoLinea.html" class="w-100 btn btn-lg btn-outline-primary">Generar Factura</a>
           </div>
@@ -119,15 +132,14 @@
       <div class="col">
         <div class="card mb-4 rounded-3 shadow border-white metodoPago">
           <div class="card-header py-3 text-bg-primary border-danger bg-danger">
-            <h4 class="my-0 fw-normal karla-labelsCard">Banorte</h4>
+            <h4 class="my-0 fw-normal karla-labelsCard">BANORTE</h4>
           </div>
           <div class="card-body">
             <a class="card-title pricing-card-title">
               <img src="src/img/LOGOS_BANCOS/BANORTE.png" style="width: 100px;">
             </a>
             <ul class="list-unstyled mt-3 mb-4">
-              <li class="karla-textCards">Para pagos realizados en Bancos Banorte</li>
-              <li class="karla-textCards">con comprobante en ticket</li>
+              <li class="karla-textCards">Para pagos realizados en Banorte</li>
             </ul>
             <a href="Consultas/pagoBanorte.html" class="w-100 btn btn-lg btn-outline-danger">Generar Factura</a>
           </div>
@@ -136,15 +148,14 @@
       <div class="col">
         <div class="card mb-4 rounded-3 shadow border-white metodoPago">
           <div class="card-header py-3 text-bg-primary border-success bg-success metodoPago">
-            <h4 class="my-0 fw-normal karla-labelsCard">Afime</h4>
+            <h4 class="my-0 fw-normal karla-labelsCard">AFIRME</h4>
           </div>
           <div class="card-body">
             <a class="card-title pricing-card-title">
               <img src="src/img/LOGOS_BANCOS/AFIRME.png" style="width: 85px;">
             </a>
             <ul class="list-unstyled mt-3 mb-4">
-              <li class="karla-textCards">Para pagos realizados en Bancos Afirme</li>
-              <li class="karla-textCards">con comprobante en ticket</li>
+              <li class="karla-textCards">Para pagos realizados en Afirme</li>
             </ul>
             <a href="Consultas/pagoAfirme.html" class="w-100 btn btn-lg btn-outline-success">Generar Factura</a>
           </div>
@@ -163,8 +174,7 @@
               <img src="src/img/oxxo.png" style="width: 150px;">
             </a>
             <ul class="list-unstyled mt-3 mb-4">
-              <li class="karla-textCards">Para pagos realizados en sucursales OXXO</li>
-              <li class="karla-textCards">con comprobante en ticket</li>
+              <li class="karla-textCards">Para pagos realizados en OXXO</li>
             </ul>
             <a href="Consultas/pagoOxxo.html" class="w-100 btn btn-lg btn-outline-warning">Generar Factura</a>
           </div>

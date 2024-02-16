@@ -81,15 +81,12 @@
         </div>
         <br>
         <div class="alert alert-secondary">
-
-            <h6 style="text-align: center;">En el caso de OXXO, su pago realizado puede tardar un tiempo estimado de
-                <strong>48hrs</strong> para que pueda generar su factura</h6>
+            <h6 style="text-align: center;">Los pagos realizados en OXXO pueden tardar en reflejarse hasta <strong>48 horas.</strong> Después de este tiempo, puede generar su factura.</h6>
         </div>
         <div class="row row row-cols-1 row-cols-md-2 mb-3">
             <div class="col">
                 <h1 style="color: #76AEFF;" class="karla-labels">Emisión de Factura</h1>
-                <h4 class="karla-labels">Para generar su factura se requiere los <br> datos impresos en su recibo
-                </h4>
+                <h4 class="karla-labels">Obtenga de su comprobante de pago <br> los siguientes datos:</h4>
                 <hr class="featurette-divider">
 
 
@@ -106,7 +103,7 @@
                             <option value="06">06</option>
                             <option value="07">07</option>
                             <option value="08">08</option>
-                            <option selected="selected" value="09">09</option>
+                            <option value="09">09</option>
                             <option value="10">10</option>
                             <option value="11">11</option>
                             <option value="12">12</option>
@@ -135,7 +132,7 @@
                     <div class="col">
                         <select name="ddlMes" id="ddlMes" class="form-control input">
                             <option value="01">Enero</option>
-                            <option selected="selected" value="02">Febrero</option>
+                            <option value="02">Febrero</option>
                             <option value="03">Marzo</option>
                             <option value="04">Abril</option>
                             <option value="05">Mayo</option>
@@ -162,20 +159,20 @@
 
 
                     <div class="divInput">
-                        <label for="cfdi" class="karla-labelsInput"> No. de Referencia/Expediente:</label>
+                        <label for="cfdi" class="karla-labelsInput"> Núm. de referencia o expediente:</label>
                         <span id="rfvtxtNoFactura" style="color:Red;visibility:hidden;">*</span></br>
                         <input name="txtNoFactura" type="text" id="txtNoFactura"
                             class="form-control  input w-60 d-inline"
-                            onFocus="if (this.value == 'xxx-xxxx' ){this.value = '';}" value="" />
+                            onFocus="if (this.value == 'xxx-xxxx' ){this.value = '';}" value="" placeholder="00000000" maxlength="8" />
                     </div>
 
                     <br>
                     <br>
 
                     <div class="divInput">
-                        <label for="cfdi" class="karla-labelsInput"> Importe (Antes de cargos):</label>
+                        <label for="cfdi" class="karla-labelsInput"> Importe antes de cargos:</label>
                         <span id="rfvtxtTotal" style="color:Red;visibility:hidden;">*</span></br>
-                        <input name="txtTotal" type="text" id="txtTotal" class="form-control  input w-60 d-inline" />
+                        <input name="txtTotal" type="text" id="txtTotal" class="form-control  input w-60 d-inline" placeholder="0.00" />
 
                         <br>
 

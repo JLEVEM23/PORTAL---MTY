@@ -44,6 +44,10 @@
 }
 
 
+.border-left-primary{
+    border-left:0.70rem solid black !important;
+    box-shadow: 20px;
+}
 
 
 .text {
